@@ -4,14 +4,37 @@
         max-width: 500px;
       }
       body header{
-        position: relative;;
+        position: absolute;
+        margin-top: 10px;
       }
       header ul{
         flex-direction: column;
       }
-      .main{
-        -webkit-background-size: auto;
-        background-size: auto;
+      header .burger{
+        left: 0;
+        display: block;
+        position: absolute;
+      }
+      header .navpanel{
+        position: absolute;
+        padding: 0;
+        margin-top: 60px;
+        left: 0;
+        display: none;
+
+      }
+      header .btn{
+        margin: 5px 28%;
+      }
+      body .main{
+        align-items: flex-start;
+        padding-top: 75%;
+        -webkit-background-size: 70%;
+        background-size: 70%;
+        background-position: 0% 85%;
+      }
+      body .main_content{
+        padding: 0;
       }
       body .main_content .main_wrapper{
         padding: 10px 40px;
@@ -41,23 +64,40 @@
         font-size: 30px;
         font-weight: light;
       }
+      body #CDT{
+        font-size: 20px;
+       ;
+      }
+      body #CDT .number-wrapper{
+        margin: 20px;
+        width: 15%;
+      }
+      body #CDT .caption{
+        font-size: 15px;
+      }
+      body #CDT .number{
+        display: -webkit-inline-flex;
+              display: -moz-inline-flex;
+              display: -ms-inline-flex;
+              display: -o-inline-flex;
+              display: inline-flex;      }
       body .we img{
       
-      height: 80%;
-      width: 65%;
+      height: 150px;
+      width:  px;
       z-index: 10;
       position: relative;
-      margin-top: 40px;
+      margin-top: 20px;
     }
     body .we .we_item{
-      padding: 0 5%;
+      padding: 0;
     }
     .my_photo{
       height: 160px;
       width: 160px;
       border: 1px, solid, black;
     }
-    .her_photo{
+    body .we .we_item .her_photo{
       height: 160px;
       width: 160px;
 
@@ -66,14 +106,41 @@
       position: absolute;
       z-index: 0;
       background-color: #c2a7a1;
-      width: 200px;
-      height: 160px;
-      margin-left: 20px;
+      width: 140px;
+      height: 110px;
+      margin-left: 11px;
     }
-      body .where iframe{
+     body .where iframe{
         width: 300px;
         height: 150px;
       }
+    body .we .we_item .my_photo{
+        height: 160px;
+        width: 160px;
+      }
+    body .our_story-content{
+      margin: 0 5%;
+    }
+    body .importent .importent_content h2{
+      font-size: 22px;
+    }
+    body .importent .importent_content h3{
+      font-size: 22px;
+    }
+    body .importent .importent_content h1{
+      font-size: 35px;
+    }
+    body .importent li {
+      width: 60px;
+      height: 60px;
+    }
+    body .registration iframe{
+      width: 320px;
+
+    }
+    body .registration_form .xbtn{
+      width: 230px;
+    }
 }
 
 
@@ -102,11 +169,20 @@ header{
   padding-top: 20px;
   z-index: 100;
 }
+
+.menu_wrapper{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+}
 header ul{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   color: #fff;
@@ -114,9 +190,17 @@ header ul{
   font-size: 20px;
   letter-spacing: 1px;
   align-items: center;
+  width: 80%;
 }
 header li{
   list-style-type: none;
+}
+.burger{
+    display: none;
+}
+.btn{
+  position: relative;
+  display: inline-block;
 }
 .btn a{
   padding: 12px 37px;
