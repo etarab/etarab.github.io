@@ -52,11 +52,13 @@ function openboxbody(id){
     display = document.getElementById(id).style.display;
     if(display=='' || display=='none'){
        document.getElementById(id).style.display='block';
-        document.body.style.overflow='hidden';
+        // document.body.style.overflow='hidden';
+        $('body').addClass('modal_overflow');
        
     }else{
        document.getElementById(id).style.display='none';
-       document.body.style.overflow='visible';
+       // document.body.style.overflow='visible';
+       $('body').removeClass('modal_overflow');
     }
 }
 

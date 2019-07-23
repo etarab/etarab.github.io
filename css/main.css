@@ -2,7 +2,13 @@
   
       body{
         max-width: 500px;
-        
+
+      }
+      .modal_overflow{
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        position: fixed;
       }
       body header{
         position: absolute;
