@@ -47,8 +47,18 @@ function openbox(id){
     }else{
        document.getElementById(id).style.display='none';
     }
+  }
+function openboxbody(id){
+    display = document.getElementById(id).style.display;
+    if(display=='' || display=='none'){
+       document.getElementById(id).style.display='block';
+        document.body.style.overflow='hidden';
+       
+    }else{
+       document.getElementById(id).style.display='none';
+       document.body.style.overflow='visible';
+    }
 }
-
 
 // quantumWizButtonPaperbuttonLabel exportLabel
 // jQuery('#btn').click(function() {

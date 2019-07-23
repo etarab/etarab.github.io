@@ -2,6 +2,7 @@
   
       body{
         max-width: 500px;
+        
       }
       body header{
         position: absolute;
@@ -136,6 +137,7 @@
     }
     body .registration iframe{
       width: 320px;
+
 
     }
     body .registration_form .xbtn{
