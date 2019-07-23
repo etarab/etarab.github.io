@@ -139,7 +139,6 @@
 
     }
     body .registration_form .xbtn{
-      display: none;
       width: 230px;
     }
 }
@@ -551,7 +550,7 @@ header li a:hover{
   width: 100%;
   z-index: 100;
   background-color: rgba(0,0,0,0.7);
-  padding-top: 5%;
+  padding-top: 20px;
 }
 .registration_form{
   display: -webkit-flex;
