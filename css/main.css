@@ -24,7 +24,7 @@
 
       }
       header .btn{
-        margin: 5px 28%;
+        margin: 5px 25%;
       }
       body .main{
         align-items: flex-start;
@@ -139,6 +139,7 @@
 
     }
     body .registration_form .xbtn{
+      display: none;
       width: 230px;
     }
 }
@@ -537,6 +538,7 @@ header li a:hover{
   padding-bottom: 50px;
 }
 .where h3{
+  color: #323131;
   padding: 40px;
 }
 .where p{
