@@ -142,6 +142,8 @@
       height: 60px;
     }
     body .registration iframe{
+      overflow-y: auto;
+     -webkit-overflow-scrolling:touch;
       width: 320px;
 
 
@@ -161,6 +163,7 @@ body{
   /* height: 2000px; */
   background-color: #feeae2;
   font-family: 'Oswald', sans-serif;
+  overflow-y: scroll;
 }
 h1{
   margin: 0;
@@ -574,7 +577,16 @@ header li a:hover{
   padding: 0;
   margin: 0;
   z-index: 150;
-  overflow: visible;
+  overflow-y: auto;
+  -webkit-overflow-scrolling:touch;
+}
+.open {
+  display: block !important;
+  overflow-y: scroll !important;
+  height: 300px !important;
+}
+.block {
+  overflow: hidden !important;
 }
 .registration_form .xbtn{
   width: 480px;

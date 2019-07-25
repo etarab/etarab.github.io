@@ -53,14 +53,26 @@ function openboxbody(id){
     if(display=='' || display=='none'){
        document.getElementById(id).style.display='block';
         // document.body.style.overflow='hidden';
-        $('body').addClass('modal_overflow');
+        $('body').addClass('open');
+        $('body').addClass('block');
        
     }else{
        document.getElementById(id).style.display='none';
        // document.body.style.overflow='visible';
-       $('body').removeClass('modal_overflow');
+       $('body').removeClass('open');
+       $('body').removeClass('block');
     }
 }
+
+// $('#iagree').click(function() {
+//   $('#registr').attr('class','open');
+//   $('#body').attr('class','block');
+// });
+
+// $('#registr').click(function() {
+//   $(this).removeAttr('class');
+//   $('#body').removeAttr('class');
+// });
 
 // quantumWizButtonPaperbuttonLabel exportLabel
 // jQuery('#btn').click(function() {
