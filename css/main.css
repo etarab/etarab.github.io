@@ -583,7 +583,7 @@ header li a:hover{
 .open {
   display: block !important;
   overflow-y: scroll !important;
-  height: 300px !important;
+  /*height: 300px !important;*/
 }
 .block {
   overflow: hidden !important;

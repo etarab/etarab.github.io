@@ -51,15 +51,15 @@ function openbox(id){
 function openboxbody(id){
     display = document.getElementById(id).style.display;
     if(display=='' || display=='none'){
-       document.getElementById(id).style.display='block';
+       // document.getElementById(id).style.display='block';
         // document.body.style.overflow='hidden';
-        $('body').addClass('open');
+        $('#registr').addClass('open');
         $('body').addClass('block');
        
     }else{
-       document.getElementById(id).style.display='none';
+       // document.getElementById(id).style.display='none';
        // document.body.style.overflow='visible';
-       $('body').removeClass('open');
+       $('#registr').removeClass('open');
        $('body').removeClass('block');
     }
 }
