@@ -141,10 +141,10 @@
       width: 60px;
       height: 60px;
     }
-    body .registration iframe{
+    body .registration_form iframe{
       overflow-y: auto;
      -webkit-overflow-scrolling:touch;
-      width: 320px;
+      width: 350px;
 
 
     }
@@ -178,7 +178,7 @@ header{
   width: 100%;
   position: fixed;
   padding-top: 20px;
-  z-index: 100;
+  z-index: 10;
 }
 
 .menu_wrapper{
@@ -554,56 +554,36 @@ header li a:hover{
 .where p{
   padding: 0;
 }
-.registration{
-  display: none;
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  z-index: 100;
-  background-color: rgba(0,0,0,0.7);
-  padding: 0;
-  margin: 0;
-}
+
 .registration_form{
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  position: absolute;
+  display: none;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.7);
   text-align: center;
   padding: 0;
   margin: 0;
-  z-index: 150;
+  z-index: 15;
   overflow-y: auto;
   -webkit-overflow-scrolling:touch;
 }
 .open {
   display: block !important;
   overflow-y: scroll !important;
-  /*height: 300px !important;*/
+  
 }
 .block {
   overflow: hidden !important;
 }
 .registration_form .xbtn{
-  width: 480px;
-  text-align: right;
-  /* font-family: Arial;
-  position: absolute;
-  top: 8px;
-  padding: 12px 20px;
-  border-radius: 50%;
-  border: 0px solid #000;
-  text-decoration: none;
-  background-color: #323131; */
+  
 }
 .xbtn a{
   font-family: Arial;
   position: absolute;
   top: 0;
+  left: 0;
   padding: 12px 20px;
   border-radius: 50%;
   border: 0px solid #000;
