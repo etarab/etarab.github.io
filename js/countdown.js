@@ -48,34 +48,23 @@ function openbox(id){
        document.getElementById(id).style.display='none';
     }
   }
-function openboxbody(id){
-    display = document.getElementById(id).style.display;
-    if(display=='' || display=='none'){
+function openboxbody(){
+    // display = document.getElementById(id).style.display;
+    // if(display=='' || display=='none'){
        // document.getElementById(id).style.display='block';
         // document.body.style.overflow='hidden';
         $('#registr').addClass('open');
         $('body').addClass('block');
        
-    }else{
-       // document.getElementById(id).style.display='none';
-       // document.body.style.overflow='visible';
-       $('#registr').removeClass('open');
-       $('body').removeClass('block');
     }
+    // else{
+    //    // document.getElementById(id).style.display='none';
+    //    // document.body.style.overflow='visible';
+    //    $('#registr').removeClass('open');
+    //    $('body').removeClass('block');
+    // }
+// }
+function closeboxbody(){
+  $('#registr').removeClass('open');
+  $('body').removeClass('block');
 }
-
-// $('#iagree').click(function() {
-//   $('#registr').attr('class','open');
-//   $('#body').attr('class','block');
-// });
-
-// $('#registr').click(function() {
-//   $(this).removeAttr('class');
-//   $('#body').removeAttr('class');
-// });
-
-// quantumWizButtonPaperbuttonLabel exportLabel
-// jQuery('#btn').click(function() {
-//                //получаю клик по нужному елементу..А вот дальше не нашол подходящего метода..
-//              jQuery('#registr')[0].scrollintoView (true);//не работает..И многое дргугое..Может неверно писал правда..Новот не сложилось у меня.
-//             })
