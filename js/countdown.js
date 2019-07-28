@@ -56,8 +56,6 @@ function openboxbody(){
   $('body').addClass('block');
 }
 
-
-
 function closeboxbody(){
   $('#registr').removeClass('open');
   $('body').removeClass('block');
