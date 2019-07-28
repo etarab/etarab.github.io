@@ -119,6 +119,11 @@
       height: 110px;
       margin-left: 0;
     }
+    body .aboutus{
+      background-size: auto;
+      background-position: right bottom;
+      font-weight: 600;
+    }
     body .where-content{
       flex-direction: column;
       justify-content: center;
@@ -231,7 +236,7 @@ header ul{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   color: #fff;
@@ -375,6 +380,7 @@ header li a:hover{
 }
 
 #CDT .number-wrapper {
+
     margin: 15px;
     /* -moz-box-shadow: 0 5px 8px #000000;
     -webkit-box-shadow: 0 5px 8px #000000;
@@ -445,7 +451,11 @@ header li a:hover{
   -webkit-background-size: 50%;
   background-size: 50%;
   background-repeat: repeat;
-
+  background-image: url('../img/couple.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-position: left bottom;
 }
 .about{
   padding: 0;
@@ -470,13 +480,18 @@ header li a:hover{
   text-align: center;
 }
 .aboutus_content h3{
-  color: #2f6061;
-  padding: 60px 0;
+  color: #323131;
+  font-size: 70px;
+  padding: 45px 0;
+}
+.we p{
+   font-family: 'Amatic SC';
+   font-size: 35px;
 }
 .we img{
   border: 3px solid #feeae2;
   height: 100%;
-  width: 77%;
+  width: 75%;
   z-index: 10;
   position: relative;
   margin-top: 40px;
@@ -544,7 +559,7 @@ header li a:hover{
   justify-content: center;
   align-items: center;
   font-family: 'Courgette', cursive;
-  color: #323131;
+  color: #2f6061;
   font-size: 100px;
   width: 15%;
   text-align: center;
@@ -593,6 +608,11 @@ header li a:hover{
   color: #feeae2;
   text-align: center;
   font-family: 'Amatic SC';
+  background-image: url('../img/wine.png');
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-position: left bottom;
+  background-repeat: no-repeat;
 }
 .fa-vk{
   padding: 6px 4px 6px 6px;
