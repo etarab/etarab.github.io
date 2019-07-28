@@ -728,7 +728,7 @@ header li a:hover{
 .xbtn{
   top: 5px;
   width: 100%;
-  position: static;
+  position: relative;
   text-align: center;
   z-index: 20;
 }
