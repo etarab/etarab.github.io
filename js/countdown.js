@@ -6,7 +6,7 @@ CountdownTimer.prototype={
   this.elem = document.getElementById(elm);
   this.tl = tl;
   this.mes = mes;
- },countDown:function(){
+},countDown:function(){
   var timer='';
   var today=new Date();
   var day=Math.floor((this.tl-today)/(24*60*60*1000));
@@ -21,11 +21,11 @@ CountdownTimer.prototype={
    timer += '<span class="number-wrapper"><div class="line"></div><div class="caption">МИНУТЫ</div><span class="number min">'+this.addZero(min)+'</span></span><span class="number-wrapper"><div class="line"></div><div class="caption">СЕКУНДЫ</div><span class="number sec">'+this.addZero(sec)+'</span></span>';
    this.elem.innerHTML = timer;
    tid = setTimeout( function(){me.countDown();},10 );
-  }else{
+ }else{
    this.elem.innerHTML = this.mes;
    return;
-  }
- },addZero:function(num){ return ('0'+num).slice(-2); }
+ }
+},addZero:function(num){ return ('0'+num).slice(-2); }
 }
 function CDT(){
 
@@ -41,30 +41,28 @@ window.onload=function(){
 }
 
 function openbox(id){
-    display = document.getElementById(id).style.display;
-    if(display=='' || display=='none'){
-       document.getElementById(id).style.display='block';
-    }else{
-       document.getElementById(id).style.display='none';
-    }
-  }
+  display = document.getElementById(id).style.display;
+  if(display=='' || display=='none'){
+   document.getElementById(id).style.display='block';
+ }else{
+   document.getElementById(id).style.display='none';
+ }
+}
+
+
+
 function openboxbody(){
-    // display = document.getElementById(id).style.display;
-    // if(display=='' || display=='none'){
-       // document.getElementById(id).style.display='block';
-        // document.body.style.overflow='hidden';
-        $('#registr').addClass('open');
-        $('body').addClass('block');
-       
-    }
-    // else{
-    //    // document.getElementById(id).style.display='none';
-    //    // document.body.style.overflow='visible';
-    //    $('#registr').removeClass('open');
-    //    $('body').removeClass('block');
-    // }
-// }
+  $('#registr').addClass('open');
+  $('body').addClass('block');
+}
+
+
+
 function closeboxbody(){
   $('#registr').removeClass('open');
   $('body').removeClass('block');
 }
+
+
+
+

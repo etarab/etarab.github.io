@@ -1,169 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
 
-  <title>Egor and Jane wedding</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-  <!-- Bootstrap core CSS -->
-  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans+Condensed:300,300i,700|Oswald:200,300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
+	<title>Egor and Jane wedding</title>
+
+	<!-- Bootstrap core CSS -->
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans+Condensed:300,300i,700|Oswald:200,300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://kit.fontawesome.com/c79a8bb39d.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg col-sm col-md menu_wrapper">
-        <a href="" class="burger" onclick="openbox('navigate'); return false"><img src="img/burger.png" alt=""></a>
-        <div class="btn"><a href='#' onclick="openboxbody(); return false">Я ИДУ</a></div>
-          <ul class="navpanel" id="navigate">
-            <!-- <li class="btn"><a href='#' onclick="openbox('registr'); return false">Я ИДУ</a></li> -->
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#story">Наша история</a></li>
-            <li><a href="#atantion">Важная информация</a></li>
-            <li><a href="#gde">Как добраться</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
- 
-<div class="registration_form" id='registr'>
-   	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKrAj_8HP_m6FMABU0pyELhlTCDinpR8EPPp_C9VXGA2ZYzQ/viewform?embedded=true" width="640" height="792" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe>
-	<div class="xbtn" id="closebtn" onclick="closeboxbody(); return false"><a href="">X</a></div>
-</div>
-   <section class="main">
-    <div class="conteiner">
-      <div class="row">
-        <div class="col-lg col-sm col-md">
-          <div class="main_content">
-            <div class="main_wrapper">
-              <h1>Егор и Женя</h1>
-              <div class="line">
-                <div class="line1"></div>
-                <div class="line2"></div>
-              </div>
-              <h3>inst: #targorwedding</h3>
-              <h2>Мы женимся</h2>
-              <p>25.08.2019</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="timer">
-    <div class="container">
-        <div class="row">
-          <div class="col-lg col-sm col-md">
-            <div class="days_count">
-              <h3>Мы станем семьей 25 августа 2019 года</h3>
-              <div id="CDT"></div>
-            </div>
-          </div>
-        </div>
-    </div>
-  </section>
-  <section class="aboutus" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg col-sm col-md">
-          <div class="aboutus_content">
-            <h3>Наша история</h3>
-            <ul class="we">
-              <li class="we_item">
-                <div class="her_photo">
-                  <div class="bg_photo"></div>
-                  <img src="img/she.PNG" alt="">
-                </div>
-                <br>
-                <p>Женя</p>
-              </li>
-              <li class="we_item">
-                <div class="my_photo">
-                  <div class="bg_photo"></div>
-                  <img src="img/me.png" alt="">
-                </div>
-                <br>
-                <p>Егор</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg col-sm col-md menu_wrapper">
+					<a href="" class="burger" onclick="openbox('navigate'); return false"><img src="img/burger.png" alt=""></a>
+					<div class="btn"><a href='#' onclick="openboxbody(); return false">Я ИДУ</a></div>
+					<ul class="navpanel" id="navigate">
+						<!-- <li class="btn"><a href='#' onclick="openbox('registr'); return false">Я ИДУ</a></li> -->
+						<li><a href="#about">О нас</a></li>
+						<li><a href="#story">Наша история</a></li>
+						<li><a href="#atantion">Важная информация</a></li>
+						<li><a href="#gde">Как добраться</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="registration_form" id='registr'>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKrAj_8HP_m6FMABU0pyELhlTCDinpR8EPPp_C9VXGA2ZYzQ/viewform?embedded=true" width="640" height="792" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe>
+		<div class="xbtn" id="closebtn" onclick="closeboxbody(); return false"><a href="">Вернуться назад</a></div>
+	</div>
+	
+	<section class="main" id='main'>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg">
+					<div class="main_content">
+						<div class="main_wrapper">
+							<h1>Егор и Женя</h1>
+							<div class="line">
+								<div class="line1"></div>
+								<div class="line2"></div>
+							</div>
+							<h3>inst: #targorwed</h3>
+							<h2>Мы женимся</h2>
+							<p>25.08.2019</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="timer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg col-sm col-md">
+					<div class="days_count">
+						<h3>Мы станем семьей 25 августа 2019 года</h3>
+						<div id="CDT"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="aboutus" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg col-sm col-md">
+					<div class="aboutus_content">
+						<h3>Немного о нас</h3>
+						<ul class="we">
+							<li class="we_item">
+								<div class="her_photo">
+									<div class="bg_photo"></div>
+									<img src="img/she.PNG" alt="">
+								</div>
+								<br>
+								<p>Женя</p>
+							</li>
+							<li class="we_item">
+								<div class="my_photo">
+									<div class="bg_photo"></div>
+									<img src="img/me.png" alt="">
+								</div>
+								<br>
+								<p>Егор</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
       <!-- </div>
     </div>
     <div class="our_story">
-    <div class="container"> -->
-    <div class="row">
-      <div class="col-lg col-sm col-md">
-        <div class="our_story-content" id="story">
-          <ul>
-          	<li>года мы встречаемся</li>
-          	<li>года живем вместе</li>
-          	<li>совместный, удачно пережитый переезд</li>
-          	<li> стран мы уже посетили вместе и не собираемся останавливаться на достигнутом</li>
-          	<li>колличество сериалов, просмотренных вместе</li>
+    	<div class="container"> -->
+    		<div class="row">
+    			<div class="col-lg col-sm col-md">
+    				<div class="our_story-content" id="story">
+    					<ul>
+    						<li><div class="list-marker">4</div><h3>года мы встречаемся</h3></li>
+    						<li><div class="list-marker">3</div><h3>года живем вместе</h3></li>
+    						<li><div class="list-marker">1</div><h3>совместный, удачно пережитый переезд</h3></li>
+    						<li><div class="list-marker">15</div><h3>стран мы уже посетили вместе и не собираемся останавливаться на достигнутом</h3></li>
+    						<li><div class="list-marker">∞</div><h3>количество сериалов, просмотренных вместе</h3></li>
            <!--  <li>Женя с Егором познакомились на работе. Егор работал в компании уже пол года, когда пришла Женя. Они ездили вместе на работу и с работы, проводили много времени в долгих московских пробках, где было много времени узнать друг друга.</li>
             <li>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Скатился языком о большого точках пунктуация себя назад он эта несколько заголовок лучше, журчит правилами, запятой моей великий букв страна.</li>
             <li>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Подпоясал, мир взгляд пустился всеми дороге, имеет дал его деревни оксмокс свой что рукопись если рот приставка ведущими проектах от всех!</li>
             <li>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Рукопись запятых заманивший переписали ручеек, несколько безорфографичный имеет, родного вскоре собрал своих коварных, жизни продолжил они образ меня однажды рекламных.</li> -->
-          </ul>
-        </div>
-      </div>
+        </ul>
     </div>
-  </div>
+</div>
+</div>
+</div>
 </section>
 <section class="importent" id="atantion">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg col-sm col-md">
-        <div class="importent_content">
-          <h2>Полезные советы гостям</h2>
-          <h3>Стиль одежды:</h3>
-          <h1>Нет костюмам!</h1>
-          <h3>Очень просим не использовать в вашей одежде ярких цветов,<br>а если вы присоединитесь к нашей цветовой гамме, то будет просто замечательно</h3>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-            <div class="line">
-              <div class="line1"></div>
-              <div class="line2"></div>
-            </div>
-            <h3>вместо букетов будем рады бутылочке вкусного вина, украшенной вашими пожеланиями</h3>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg">
+				<div class="importent_content">
+					<h2>Полезные советы гостям</h2>
+					<h3>Стиль одежды:</h3>
+					<h1>Нет костюмам!</h1>
+					<h3>Очень просим не использовать в вашей одежде ярких цветов,<br>а если вы присоединитесь к нашей цветовой гамме, то будет просто замечательно</h3>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<div class="line">
+						<div class="line1"></div>
+						<div class="line2"></div>
+					</div>
+					<h3>вместо букетов будем рады бутылочке вкусного вина, украшенной вашими пожеланиями</h3>
+					<div class="tamada">
+						<p>Если что, то вот контакты нашего ведущего:</p><p><b>Евгений</b> <i class="fas fa-phone"></i> +7(999)888-88-88  <a href="vk.com"><i class="fab fa-vk"></i>
+						</a></p>
+					</div>
+					<div class="coord">
+						<p>По всем вопросам в ходе мероприятия можно обращаться к координатору:</p>
+						<p><b>Ольга</b> <i class="fas fa-phone"></i> +7(999)888-88-88</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <section class="where" id='gde'>
-  <div class="conteiner">
-    <div class="row">
-      <div class="col-lg col-sm col-md">
-        <h3>Где и Когда?</h3>
-        <p>Ждем Вас по адресу: 2-й Кожуховский проезд, 29к6</p>
-        <div class="where_card">
-          <img src="" alt="">
-          <p></p>
-          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac1998a2ccf3e86417e0f7285f152656841837b950b93a5fce8055798a861c294&amp;source=constructor" width="1136" height="680" frameborder="0"></iframe>
-          <br>
-          <a href="https://yandex.ru/maps/-/CCgfnI1z">Как добраться</a>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg">
+				<h3>Где и Когда?</h3>
+				<div class="where-content">
+					<div class="where-content_text">
+						
+						<p>Ждем Вас 25 августа 2019 года по адресу: <br> <b>2-й Кожуховский проезд, 29к6</b></p>
+						<p>Сбор гостей начинается в 14:00</p>
+					</div>
+					<div class="where_card">
+						<img src="" alt="">
+						<p></p>
+						<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac1998a2ccf3e86417e0f7285f152656841837b950b93a5fce8055798a861c294&amp;source=constructor" width="1136" height="680" frameborder="0"></iframe>
+						<br>
+						
+					</div>
+				</div>
+				<a href="https://yandex.ru/maps/-/CCgfnI1z">Как добраться</a>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- <div class="registration" name="reg_form">
 <div class="container">
@@ -182,10 +204,10 @@
 <!-- Navigation -->
 
 <!-- Bootstrap core JavaScript -->
-<script src="js/countdown.js"></script>
+<!-- <script src="js/countdown.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script -->>
 <!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </body>
 
