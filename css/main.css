@@ -728,8 +728,9 @@ header li a:hover{
 .xbtn{
   top: 5px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   text-align: center;
+  z-index: 20;
 }
 .xbtn a{
   font-family: Arial;
