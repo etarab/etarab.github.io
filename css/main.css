@@ -91,12 +91,14 @@
               display: -ms-inline-flex;
               display: -o-inline-flex;
               display: inline-flex;      }
-      body .we img{
-      
-      
-      z-index: 10;
-      position: relative;
-      margin-top: 20px;
+      body .days_count h3{
+        color: #feeae2;
+        font-size: 35px;
+    }
+      body .we img{   
+        z-index: 10;
+        position: relative;
+        margin-top: 20px;
     }
     body .we .we_item{
       padding: 0 10px;
@@ -124,8 +126,12 @@
       background-position: right bottom;
 
     }
+    body .aboutus h2{
+
+    }
     body .aboutus h3{
       font-weight: 700;
+      font-size: 50px;
     }
     body .where-content{
       flex-direction: column;
@@ -143,11 +149,14 @@
       border: none;
       width: 100%;
     }
-     body .where iframe{
+    body .where iframe{
         width: 300px;
         height: 150px;
         border:none;
       }
+    body .where h3{
+      font-size: 40px;
+    }
 
     body .our_story-content{
       margin: 0;
@@ -166,19 +175,23 @@
     body .our_story-content .list-marker{
       font-size: 60px;
       line-height: normal;
+      font-weight: 300;
     }
     body .our_story-content h3{
       font-size: 20px;
     }
 
     body .importent .importent_content h2{
-      font-size: 22px;
+      font-size: 36px;
+
     }
     body .importent .importent_content h3{
       font-size: 22px;
     }
     body .importent .importent_content h1{
-      font-size: 35px;
+      font-size: 30px;
+      letter-spacing: 7px;
+      padding: 0 0 10px 0;
     }
     body .importent li {
       width: 60px;
@@ -537,6 +550,7 @@ header li a:hover{
 }
 .days_count h3{
     color: #feeae2;
+    font-size: 60px;
 }
 .our_story{
   text-align: center;
@@ -617,6 +631,9 @@ header li a:hover{
   background-position: left bottom;
   background-repeat: no-repeat;
 }
+.importent .alarm{
+  text-decoration: underline;
+}
 .fa-vk{
   padding: 6px 4px 6px 6px;
   border: 1px solid #feeae2;
@@ -630,6 +647,10 @@ header li a:hover{
 }
 .importent h1{
   font-weight: 600;
+}
+.importent h2{
+ font-size: 70px; 
+ padding-bottom: 40px;
 }
 .importent h3{
   padding-bottom: 20px;
@@ -675,6 +696,11 @@ header li a:hover{
   font-size: 25px;
   
 }
+.importent .tel_num{
+  text-decoration: none;
+  color: #feeae2;
+
+}
 .where{
   text-align: center;
   padding-bottom: 50px;
@@ -682,6 +708,7 @@ header li a:hover{
 .where h3{
   color: #323131;
   padding: 40px;
+  font-size: 70px;
 }
 .where p{
   padding: 0;
