@@ -122,7 +122,10 @@
     body .aboutus{
       background-size: auto;
       background-position: right bottom;
-      font-weight: 600;
+
+    }
+    body .aboutus h3{
+      font-weight: 700;
     }
     body .where-content{
       flex-direction: column;
